@@ -1,0 +1,53 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 10px;
+  min-width: 400px;
+  max-width: 500px;
+}
+
+.expense-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.expense-row input {
+  flex: 1;
+}
+
+.add-row {
+  margin-top: 1rem;
+  background-color: #0077ff;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.remaining {
+  font-weight: bold;
+  margin-top: 1rem;
+}
