@@ -56,6 +56,12 @@ Ensure the following tools are installed on your machine:
 
 ---
 
+### Calender View
+
+![alt text](C:\Users\Rajesh\Desktop\dev\expenseCalender\expense-calender\src\assets\image.png)
+![alt text](C:\Users\Rajesh\Desktop\dev\expenseCalender\expense-calender\src\assets\popup.png)
+![alt text](C:\Users\Rajesh\Desktop\dev\expenseCalender\expense-calender\src\assets\history.png)
+
 ### 📥 Clone the Repository
 
 ```bash
